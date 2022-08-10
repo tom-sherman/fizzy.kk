@@ -10,6 +10,8 @@ assert(
   run=fn ((a, b)) a + b == b + a,
   show=fn((a, b)) "(" ++ a.show ++ ", " ++ b.show ++ ")"
 )
+
+println("a + b is commutative!")
 ```
 
 ## Todo
